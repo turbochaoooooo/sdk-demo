@@ -1,0 +1,11 @@
+36 error Error: Command failed with exit code 1: git add -- packages/google/package.json packages/facebook/package.json lerna.json package-lock.json
+36 error The following paths are ignored by one of your .gitignore files:
+36 error package-lock.json
+36 error hint: Use -f if you really want to add them.
+36 error hint: Turn this message off by running
+36 error hint: "git config advice.addIgnoredFile false"
+36 error     at makeError (/Users/turbochao/.nvm/versions/node/v16.18.0/lib/node_modules/lerna/node_modules/execa/lib/error.js:59:11)
+36 error     at handlePromise (/Users/turbochao/.nvm/versions/node/v16.18.0/lib/node_modules/lerna/node_modules/execa/index.js:114:26)
+36 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+36 error     at async VersionCommand.updatePackageVersions (/Users/turbochao/.nvm/versions/node/v16.18.0/lib/node_modules/lerna/dist/index.js:8312:11)
+36 error     at async Promise.all (index 0)
