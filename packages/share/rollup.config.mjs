@@ -22,8 +22,8 @@ export default {
         // replace({
         //     BASEURL: JSON.stringify(process.env.BASE_URL) || ''
         // }),
-        serve({
-            port: 9990,
-        })
+        // serve({
+        //     port: 9990,
+        // })
     ]
 };

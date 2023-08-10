@@ -1,11 +1,11 @@
-# `facebooklogin`
+# `@sdkDemo/share`
 
 > TODO: description
 
 ## Usage
 
 ```
-const facebooklogin = require('facebooklogin');
+const share = require('@sdkDemo/share');
 
 // TODO: DEMONSTRATE API
 ```

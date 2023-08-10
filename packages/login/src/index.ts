@@ -1,11 +1,21 @@
-import loadResources from '../../../scripts/utils/loadScript'
-
-class MTFB {
+class Login {
     constructor(opt) {
         this.init()
     }
     init () {
         // console.log(gl, 'fb test')
+    }
+    google() {
+        console.log('google登录')
+    }
+    facebook() {
+        console.log('facebook登录')
+    }
+    tiktok() {
+        console.log('tiktok登录')
+    }
+    app() {
+        console.log('唤醒客户端登录')
     }
 }
 
@@ -16,7 +26,7 @@ const ProxyCreateSingleton = (function(){
         if (instance) {
             return instance;
         }
-        return instance = new MTFB(opt);
+        return instance = new Login(opt);
     }
 })();
 

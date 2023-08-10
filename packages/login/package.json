@@ -1,11 +1,11 @@
 {
-  "name": "@sdkdemo/google",
+  "name": "@sdkdemo/login",
   "version": "0.0.4-alpha.0",
-  "description": "google登录",
+  "description": "> TODO: description",
   "author": "charlesliu <charlesliu@moonton.com>",
   "homepage": "https://github.com/turbochaoooooo/sdk-demo#readme",
   "license": "ISC",
-  "main": "lib/google.js",
+  "main": "lib/login.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -13,27 +13,19 @@
   "files": [
     "lib"
   ],
+  "publishConfig": {
+    "registry": "http://localhost:4873/"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/turbochaoooooo/sdk-demo.git"
   },
   "scripts": {
-    "test": "node ./__tests__/google.test.js",
+    "test": "node ./__tests__/@sdkDemo/login.test.js",
     "serve": "rollup --config -w",
     "build": "rollup -c"
   },
   "bugs": {
     "url": "https://github.com/turbochaoooooo/sdk-demo/issues"
-  },
-  "dependencies": {
-    "@rollup/plugin-babel": "^6.0.3",
-    "@rollup/plugin-commonjs": "^25.0.3",
-    "@rollup/plugin-node-resolve": "^15.1.0",
-    "@rollup/plugin-replace": "^5.0.2",
-    "@types/node": "^20.4.9",
-    "rollup": "^3.28.0",
-    "rollup-plugin-serve": "^2.0.2",
-    "rollup-plugin-typescript2": "^0.35.0",
-    "typescript": "^5.1.6"
   }
 }
