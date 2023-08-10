@@ -4,6 +4,8 @@
     "lib": ["ES2019"],
     "isolatedModules": true,
     "esModuleInterop": true,
+    "declarationDir": "dist",
+    "declaration": true,
     "target": "ES2019",
     "allowJs": true,
     "forceConsistentCasingInFileNames": true,
