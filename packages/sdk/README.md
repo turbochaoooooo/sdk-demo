@@ -1,11 +1,11 @@
-# `@sdkDemo/share`
+# `@fe/sdk`
 
 > TODO: description
 
 ## Usage
 
 ```
-const share = require('@sdkDemo/share');
+const sdk = require('@fe/sdk');
 
 // TODO: DEMONSTRATE API
 ```
