@@ -5,14 +5,8 @@
   "author": "charlesliu <charlesliu@moonton.com>",
   "homepage": "https://github.com/turbochaoooooo/sdk-demo#readme",
   "license": "ISC",
-  "main": "index.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "publishConfig": {
     "registry": "http://localhost:4873/"
   },
@@ -25,7 +19,14 @@
     "serve": "rollup --config -w",
     "build": "rollup -c"
   },
-  "bugs": {
-    "url": "https://github.com/turbochaoooooo/sdk-demo/issues"
+  "nx": {
+    "targets": {
+      "build": {
+        "outputs": [
+          "{projectRoot}/build",
+          "{projectRoot}/public/build"
+        ]
+      }
+    }
   }
 }
