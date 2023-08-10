@@ -1,0 +1,15 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "publishConfig": {
+    "registry": "http://localhost:4873"
+  },
+  "scripts": {
+    "facebook": "lerna exec --scope facebook -- npm run serve",
+    "remix": "lerna exec --scope remix -- npm run serve",
+    "facebookTest": "lerna exec --scope facebook -- npm run test"
+  }
+}

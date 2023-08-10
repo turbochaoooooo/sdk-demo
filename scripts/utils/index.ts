@@ -1,0 +1,4 @@
+/**
+ * Noop
+ */
+export function noop() { }
