@@ -18,15 +18,5 @@
     "test": "node ./__tests__/@fe/sdk.test.js",
     "serve": "rollup --config -w",
     "build": "rollup -c"
-  },
-  "nx": {
-    "targets": {
-      "build": {
-        "outputs": [
-          "{projectRoot}/build",
-          "{projectRoot}/public/build"
-        ]
-      }
-    }
   }
 }
